@@ -35,6 +35,14 @@ LINTER = utils.get_server_info_defaults()["name"]
                 "command": "editor.action.formatDocument",
             },
         ),
+         (
+            "E261",
+            "x = 6  #  assigning 6 to the variable x",
+            {
+                "title": f"{LINTER}: Run document formatting",
+                "command": "editor.action.formatDocument",
+            },
+        ),
         (
             "E271",
             "from collections import    (namedtuple, defaultdict)",
